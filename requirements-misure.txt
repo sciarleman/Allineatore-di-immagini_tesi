@@ -1,0 +1,7 @@
+# In piu', per gli script delle misure (Allineatore/benchmark) e delle figure
+# (Documentazione/schemi): i metodi di confronto e i grafici. Usati qui:
+# SimpleITK 2.5 e Matplotlib 3.11.
+#
+#     pip install -r requirements.txt -r requirements-misure.txt
+SimpleITK
+matplotlib

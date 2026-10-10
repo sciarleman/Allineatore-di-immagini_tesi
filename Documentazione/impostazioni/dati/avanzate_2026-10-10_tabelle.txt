@@ -1,0 +1,185 @@
+﻿======================================================================================================================================================
+CK NIR, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.287  64/64    2%    0.357 841/841   0 (0)      0.34     3%   203   0.30    12%   203   0.26    10%   197     96   32843            78   2.4
+densita' fitta (96)        0.232  64/64    0%    0.326 841/841   0 (0)      0.31     1%   203   0.29     8%   203   0.27     6%   199     72   58015            87   2.4
+densita' larga (192)       0.387  64/64    0%    0.435 841/841   0 (0)      0.40     3%   200   0.39    11%   200   0.26     8%   199    144   14800            75   2.4
+confidenza bassa (0.05)    0.265  64/64    0%    0.354 841/841   0 (0)      0.33     3%   203   0.30    12%   203   0.25     7%   199     96   32950            85   2.4
+confidenza alta (0.20)     0.286  64/64    0%    0.352 841/841   0 (0)      0.33     3%   203   0.29    12%   203   0.24    10%   197     96   32265            82   2.4
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         935 finestre: mediana 0.335 -> 0.307 px; migliorate  79, peggiorate   9 (al bordo 17/8); differenza mediana in valore assoluto 0.059 px, la piu' grande 45.8 px; misurabili solo con la predefinita 7, solo con questa 4
+    densita' larga (192)        936 finestre: mediana 0.336 -> 0.397 px; migliorate  17, peggiorate 117 (al bordo 7/24); differenza mediana in valore assoluto 0.088 px, la piu' grande 41.9 px; misurabili solo con la predefinita 6, solo con questa 5
+    confidenza bassa (0.05)     937 finestre: mediana 0.336 -> 0.332 px; migliorate  26, peggiorate  11 (al bordo 9/9); differenza mediana in valore assoluto 0.036 px, la piu' grande 37.2 px; misurabili solo con la predefinita 5, solo con questa 6
+    confidenza alta (0.20)      937 finestre: mediana 0.336 -> 0.328 px; migliorate  12, peggiorate   9 (al bordo 6/6); differenza mediana in valore assoluto 0.003 px, la piu' grande 37.1 px; misurabili solo con la predefinita 5, solo con questa 7
+======================================================================================================================================================
+CK UV, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    1.021  55/64    0%    0.815 730/841   1 (0)      0.79     3%   236   0.77    13%   236   0.56     5%   114    128   20527            82   2.3
+densita' fitta (96)        0.987  59/64    2%    0.811 746/841   4 (1)      0.79     3%   298   0.63    16%   298   0.57     6%   298     96   32316            79   2.3
+densita' larga (192)       0.952  59/64    7%    0.846 735/841   3 (2)      0.85     4%   258   0.85    15%   258   0.58     6%   207    144   10319            65   2.3
+confidenza bassa (0.05)    0.911  56/64    2%    0.803 727/841   6 (3)      0.79     2%   127   0.72    11%   127   0.64     3%    83    128   22055            69   2.3
+confidenza alta (0.20)     1.239  58/64   10%    0.876 727/841   5 (2)      0.82     5%   210   0.66    16%   210   0.64     6%   210    128   13519            90   2.3
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         795 finestre: mediana 0.766 -> 0.766 px; migliorate 122, peggiorate  69 (al bordo 31/10); differenza mediana in valore assoluto 0.201 px, la piu' grande 75.6 px; misurabili solo con la predefinita 29, solo con questa 43
+    densita' larga (192)        788 finestre: mediana 0.752 -> 0.802 px; migliorate 104, peggiorate 144 (al bordo 23/28); differenza mediana in valore assoluto 0.290 px, la piu' grande 83.2 px; misurabili solo con la predefinita 36, solo con questa 47
+    confidenza bassa (0.05)     774 finestre: mediana 0.749 -> 0.773 px; migliorate  56, peggiorate  69 (al bordo 18/11); differenza mediana in valore assoluto 0.153 px, la piu' grande 108.9 px; misurabili solo con la predefinita 50, solo con questa 32
+    confidenza alta (0.20)      768 finestre: mediana 0.748 -> 0.794 px; migliorate  75, peggiorate 135 (al bordo 23/12); differenza mediana in valore assoluto 0.190 px, la piu' grande 108.3 px; misurabili solo con la predefinita 56, solo con questa 37
+======================================================================================================================================================
+FG NIR850, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.214  61/64    0%    0.198 219/225   0 (0)      0.21     1%    27   0.25     3%    27   0.31     5%    27    128   15596            37   1.5
+densita' fitta (96)        0.202  61/64    0%    0.198 220/225   0 (0)      0.21     0%     5   0.25     0%     5   0.24     0%     2     96   27490            37   1.5
+densita' larga (192)       0.206  61/64    0%    0.198 220/225   0 (0)      0.21     1%   170   0.28     5%   170   0.27    10%   170    192    6991            33   1.5
+confidenza bassa (0.05)    0.210  61/64    0%    0.195 219/225   0 (0)      0.20     1%   166   0.23     4%   166   0.25     7%   166    128   15904            34   1.5
+confidenza alta (0.20)     0.210  61/64    0%    0.209 220/225   0 (0)      0.21     1%    40   0.25     3%    40   0.27     5%    40    128   14745            34   1.5
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         451 finestre: mediana 0.204 -> 0.207 px; migliorate  11, peggiorate   8 (al bordo 2/0); differenza mediana in valore assoluto 0.042 px, la piu' grande 12.2 px; misurabili solo con la predefinita 3, solo con questa 5
+    densita' larga (192)        451 finestre: mediana 0.204 -> 0.206 px; migliorate   6, peggiorate  22 (al bordo 2/6); differenza mediana in valore assoluto 0.058 px, la piu' grande 11.2 px; misurabili solo con la predefinita 3, solo con questa 10
+    confidenza bassa (0.05)     452 finestre: mediana 0.205 -> 0.199 px; migliorate   3, peggiorate   3 (al bordo 2/1); differenza mediana in valore assoluto 0.007 px, la piu' grande 6.9 px; misurabili solo con la predefinita 2, solo con questa 7
+    confidenza alta (0.20)      451 finestre: mediana 0.204 -> 0.204 px; migliorate   3, peggiorate  11 (al bordo 1/2); differenza mediana in valore assoluto 0.013 px, la piu' grande 12.8 px; misurabili solo con la predefinita 3, solo con questa 7
+======================================================================================================================================================
+FG RX_Cappello, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    1.074  83/225   7%    1.074  83/225   2 (0)      0.98    12%   293   1.68    33%   293   1.82    38%   293    128    1923            56   2.1
+densita' fitta (96)        3.008  86/225  28%    3.008  86/225   9 (4)      2.86    33%   111   4.33    47%    69   5.43    64%   111      0       0            58   2.1
+densita' larga (192)       1.291  89/225  19%    1.291  89/225   2 (0)      1.41    18%   166   2.70    45%    19   2.64    31%   109    192     868            54   2.1
+confidenza bassa (0.05)   14.495  82/224  95%   14.495  82/224  56 (48)     16.05    97%    80  29.67    88%    78  16.26    86%    80      0       0            55   2.1
+confidenza alta (0.20)     2.253  77/225  34%    2.253  77/225  20 (13)      2.64    38%    65  17.20    78%    40   7.26    70%    65    128     652            54   2.1
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         127 finestre: mediana 0.898 -> 2.769 px; migliorate   8, peggiorate  95 (al bordo 1/9); differenza mediana in valore assoluto 1.612 px, la piu' grande 18.5 px; misurabili solo con la predefinita 29, solo con questa 20
+    densita' larga (192)        125 finestre: mediana 0.931 -> 1.310 px; migliorate  15, peggiorate  53 (al bordo 1/4); differenza mediana in valore assoluto 0.637 px, la piu' grande 13.3 px; misurabili solo con la predefinita 31, solo con questa 16
+    confidenza bassa (0.05)     124 finestre: mediana 0.932 -> 15.109 px; migliorate   1, peggiorate 123 (al bordo 0/10); differenza mediana in valore assoluto 13.260 px, la piu' grande 64.5 px; misurabili solo con la predefinita 32, solo con questa 35
+    confidenza alta (0.20)      125 finestre: mediana 0.954 -> 2.122 px; migliorate  13, peggiorate  70 (al bordo 0/12); differenza mediana in valore assoluto 1.068 px, la piu' grande 25.3 px; misurabili solo con la predefinita 31, solo con questa 21
+======================================================================================================================================================
+FG SWIR, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.996  85/225  15%    0.996  85/225   8 (1)      1.16    27%   253  61.73    67%   229  29.92    57%   229     96    4306            97   3.1
+densita' fitta (96)        0.834  90/225  13%    0.834  90/225  12 (0)      0.95    22%   246  43.13    60%   232   1.27    30%   100     72    7823            78   3.1
+densita' larga (192)       1.345  78/225  15%    1.345  78/225   7 (0)      1.70    29%   271  63.64    67%   230   1.73    47%   230    144    1974            69   3.1
+confidenza bassa (0.05)    3.243  80/225  38%    3.243  80/225  19 (0)      3.97    43%   253  36.43    81%   253   4.31    43%   214      0       0            57   3.1
+confidenza alta (0.20)     0.981  78/225  26%    0.981  78/225  14 (0)      1.19    31%   264  33.82    62%   264   1.82    36%   168     96    2962            72   3.1
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         149 finestre: mediana 1.029 -> 0.810 px; migliorate  43, peggiorate  16 (al bordo 7/5); differenza mediana in valore assoluto 0.341 px, la piu' grande 110.8 px; misurabili solo con la predefinita 19, solo con questa 25
+    densita' larga (192)        147 finestre: mediana 1.029 -> 1.525 px; migliorate  23, peggiorate  55 (al bordo 6/11); differenza mediana in valore assoluto 0.579 px, la piu' grande 102.2 px; misurabili solo con la predefinita 21, solo con questa 22
+    confidenza bassa (0.05)     131 finestre: mediana 0.986 -> 3.613 px; migliorate  14, peggiorate 103 (al bordo 4/14); differenza mediana in valore assoluto 2.400 px, la piu' grande 151.1 px; misurabili solo con la predefinita 37, solo con questa 30
+    confidenza alta (0.20)      130 finestre: mediana 0.961 -> 0.965 px; migliorate  18, peggiorate  27 (al bordo 4/9); differenza mediana in valore assoluto 0.202 px, la piu' grande 136.8 px; misurabili solo con la predefinita 38, solo con questa 24
+======================================================================================================================================================
+FG UVF, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.574  61/64    0%    0.518 222/225   0 (0)      0.58     1%   190   0.65     1%   190   0.74     6%   190    128   11621            33   1.5
+densita' fitta (96)        0.583  61/64    0%    0.502 221/225   0 (0)      0.60     1%    46   0.83     1%    10   0.94     9%    46    144   20065            37   1.5
+densita' larga (192)       0.529  61/64    0%    0.512 222/225   0 (0)      0.55     0%    43   0.60     1%    43   0.77     3%    43    192    5354            31   1.5
+confidenza bassa (0.05)    0.594  61/64    0%    0.570 222/225   0 (0)      0.60     0%   190   0.76     1%   190   0.98     6%   190    128   13621            34   1.5
+confidenza alta (0.20)     0.610  61/64    0%    0.524 222/225   0 (0)      0.62     1%    45   0.90     2%    38   0.69     6%    45    128    6700            33   1.5
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         451 finestre: mediana 0.584 -> 0.598 px; migliorate  23, peggiorate  41 (al bordo 7/16); differenza mediana in valore assoluto 0.155 px, la piu' grande 9.6 px; misurabili solo con la predefinita 3, solo con questa 5
+    densita' larga (192)        451 finestre: mediana 0.584 -> 0.548 px; migliorate  32, peggiorate  36 (al bordo 12/11); differenza mediana in valore assoluto 0.160 px, la piu' grande 3.2 px; misurabili solo con la predefinita 3, solo con questa 7
+    confidenza bassa (0.05)     452 finestre: mediana 0.584 -> 0.597 px; migliorate  12, peggiorate  22 (al bordo 1/6); differenza mediana in valore assoluto 0.077 px, la piu' grande 6.5 px; misurabili solo con la predefinita 2, solo con questa 7
+    confidenza alta (0.20)      449 finestre: mediana 0.584 -> 0.611 px; migliorate  29, peggiorate  49 (al bordo 6/20); differenza mediana in valore assoluto 0.167 px, la piu' grande 4.3 px; misurabili solo con la predefinita 5, solo con questa 4
+======================================================================================================================================================
+FG UVR, precisione precisa
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.323  52/64    0%    0.372 196/225   0 (0)      0.39     0%   128   0.47     0%     4   0.43     0%     4    128   12985            35   1.5
+densita' fitta (96)        0.318  53/64    0%    0.364 193/225   0 (0)      0.41     0%   135   0.55     0%     2   0.61     0%     5     96   23300            36   1.5
+densita' larga (192)       0.353  53/64    0%    0.378 200/225   0 (0)      0.41     0%    77   0.51     1%    32   0.52     0%     4    144    5728            33   1.5
+confidenza bassa (0.05)    0.340  54/64    4%    0.400 197/225   0 (0)      0.41     1%   127   0.51     0%     4   0.46     0%     4    128   14007            34   1.5
+confidenza alta (0.20)     0.343  54/64    0%    0.371 200/225   0 (0)      0.40     1%   130   0.46     0%     2   0.41     0%     4    128   10829            34   1.5
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         395 finestre: mediana 0.379 -> 0.400 px; migliorate  17, peggiorate  28 (al bordo 6/7); differenza mediana in valore assoluto 0.089 px, la piu' grande 7.0 px; misurabili solo con la predefinita 15, solo con questa 6
+    densita' larga (192)        407 finestre: mediana 0.385 -> 0.405 px; migliorate  19, peggiorate  28 (al bordo 5/9); differenza mediana in valore assoluto 0.087 px, la piu' grande 51.5 px; misurabili solo con la predefinita 3, solo con questa 11
+    confidenza bassa (0.05)     406 finestre: mediana 0.384 -> 0.408 px; migliorate  11, peggiorate  11 (al bordo 3/3); differenza mediana in valore assoluto 0.017 px, la piu' grande 3.7 px; misurabili solo con la predefinita 4, solo con questa 4
+    confidenza alta (0.20)      405 finestre: mediana 0.383 -> 0.391 px; migliorate  15, peggiorate  22 (al bordo 5/2); differenza mediana in valore assoluto 0.051 px, la piu' grande 3.5 px; misurabili solo con la predefinita 5, solo con questa 12
+======================================================================================================================================================
+FG NIR850, precisione massima
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.057  60/64    0%    0.059 220/225   0 (0)      0.06     0%   170   0.06     2%   170   0.05     3%   170     64   59204           128   4.0
+densita' fitta (96)        0.054  62/64    0%    0.053 221/225   0 (0)      0.05     0%   170   0.05     1%   170   0.05     3%   170     48  103043           134   4.0
+densita' larga (192)       0.077  61/64    0%    0.061 220/225   0 (0)      0.06     0%    18   0.06     2%    18   0.06     5%    18     96   27097           110   4.0
+confidenza bassa (0.05)    0.059  61/64    0%    0.059 221/225   0 (0)      0.06     0%   170   0.06     2%   170   0.05     5%   170     64   59820           118   4.0
+confidenza alta (0.20)     0.059  60/64    0%    0.058 218/225   0 (0)      0.06     1%   170   0.06     3%   170   0.05     5%   170     64   57419           111   4.0
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         455 finestre: mediana 0.059 -> 0.052 px; migliorate   3, peggiorate   1 (al bordo 0/0); differenza mediana in valore assoluto 0.015 px, la piu' grande 1.6 px; misurabili solo con la predefinita 5, solo con questa 2
+    densita' larga (192)        455 finestre: mediana 0.059 -> 0.059 px; migliorate   6, peggiorate   9 (al bordo 1/0); differenza mediana in valore assoluto 0.029 px, la piu' grande 17.7 px; misurabili solo con la predefinita 5, solo con questa 5
+    confidenza bassa (0.05)     458 finestre: mediana 0.059 -> 0.060 px; migliorate   5, peggiorate   3 (al bordo 1/0); differenza mediana in valore assoluto 0.004 px, la piu' grande 15.8 px; misurabili solo con la predefinita 2, solo con questa 4
+    confidenza alta (0.20)      454 finestre: mediana 0.059 -> 0.058 px; migliorate   4, peggiorate   2 (al bordo 0/0); differenza mediana in valore assoluto 0.004 px, la piu' grande 3.3 px; misurabili solo con la predefinita 6, solo con questa 2
+======================================================================================================================================================
+FG UVF, precisione massima
+configurazione               verifica programma         griglia fissa           fitta: tutte        bordo 0-1500           angoli             campo fine       tempo   RAM
+                               med.  n   >5px      med.  n   >10px(gruppo)    med.  >5px   max    med.  >5px   max    med.  >5px   max      sigma  blocchi         s    GB
+predefinita (128, 0.10)    0.158  62/64    0%    0.145 222/225   0 (0)      0.15     0%    42   0.20     1%    38   0.21     6%    42     64   48900           114   4.0
+densita' fitta (96)        0.168  61/64    0%    0.158 222/225   0 (0)      0.17     1%    45   0.23     2%    42   0.27     9%    45     72   77937           115   4.0
+densita' larga (192)       0.172  61/64    0%    0.139 222/225   0 (0)      0.15     0%   188   0.21     1%   188   0.23     3%   188     96   24363            99   4.0
+confidenza bassa (0.05)    0.188  61/64    0%    0.170 222/225   0 (0)      0.21     1%    44   0.33     2%    43   0.62     9%    44     96   54568           103   4.0
+confidenza alta (0.20)     0.197  61/64    0%    0.161 221/225   0 (0)      0.17     1%   189   0.27     3%   189   0.35    12%   189     96   31494           103   4.0
+  rispetto alla predefinita, sulle finestre misurabili in entrambe (migliorata/peggiorata = oltre 0.5 px di differenza):
+    densita' fitta (96)         452 finestre: mediana 0.153 -> 0.171 px; migliorate   2, peggiorate  11 (al bordo 0/1); differenza mediana in valore assoluto 0.055 px, la piu' grande 8.9 px; misurabili solo con la predefinita 2, solo con questa 4
+    densita' larga (192)        450 finestre: mediana 0.152 -> 0.144 px; migliorate   2, peggiorate  14 (al bordo 1/4); differenza mediana in valore assoluto 0.068 px, la piu' grande 41.1 px; misurabili solo con la predefinita 4, solo con questa 6
+    confidenza bassa (0.05)     449 finestre: mediana 0.152 -> 0.201 px; migliorate   2, peggiorate  39 (al bordo 1/13); differenza mediana in valore assoluto 0.088 px, la piu' grande 3.0 px; misurabili solo con la predefinita 5, solo con questa 6
+    confidenza alta (0.20)      450 finestre: mediana 0.152 -> 0.168 px; migliorate   3, peggiorate  23 (al bordo 1/7); differenza mediana in valore assoluto 0.077 px, la piu' grande 59.9 px; misurabili solo con la predefinita 4, solo con questa 6
+
+======================================================================================================================================================
+IN SINTESI: ogni impostazione contro la predefinita, su tutte le coppie
+
+densita' fitta (96): 9 coppie
+   mediana sulla griglia fitta: cambia fra -0.219 e +1.871 px (mediana delle coppie +0.003)
+   finestre migliorate di oltre 0.5 px: 308; peggiorate: 278; su 4210
+   tempo di stima: fra -19 e +9 s; memoria: fra -0.0 e +0.0 GB
+      CK NIR precisa             mediana -0.028 px (verifica del programma -0.055), migliorate  79, peggiorate   9 su 935
+      CK UV precisa              mediana +0.000 px (verifica del programma -0.034), migliorate 122, peggiorate  69 su 795
+      FG NIR850 precisa          mediana +0.003 px (verifica del programma -0.012), migliorate  11, peggiorate   8 su 451
+      FG RX_Cappello precisa     mediana +1.871 px (verifica del programma +1.934), migliorate   8, peggiorate  95 su 127
+      FG SWIR precisa            mediana -0.219 px (verifica del programma -0.162), migliorate  43, peggiorate  16 su 149
+      FG UVF precisa             mediana +0.015 px (verifica del programma +0.009), migliorate  23, peggiorate  41 su 451
+      FG UVR precisa             mediana +0.020 px (verifica del programma -0.005), migliorate  17, peggiorate  28 su 395
+      FG NIR850 massima          mediana -0.007 px (verifica del programma -0.003), migliorate   3, peggiorate   1 su 455
+      FG UVF massima             mediana +0.018 px (verifica del programma +0.010), migliorate   2, peggiorate  11 su 452
+
+densita' larga (192): 9 coppie
+   mediana sulla griglia fitta: cambia fra -0.035 e +0.496 px (mediana delle coppie +0.020)
+   finestre migliorate di oltre 0.5 px: 224; peggiorate: 478; su 4210
+   tempo di stima: fra -28 e -1 s; memoria: fra -0.0 e +0.0 GB
+      CK NIR precisa             mediana +0.061 px (verifica del programma +0.100), migliorate  17, peggiorate 117 su 936
+      CK UV precisa              mediana +0.050 px (verifica del programma -0.069), migliorate 104, peggiorate 144 su 788
+      FG NIR850 precisa          mediana +0.002 px (verifica del programma -0.009), migliorate   6, peggiorate  22 su 451
+      FG RX_Cappello precisa     mediana +0.379 px (verifica del programma +0.217), migliorate  15, peggiorate  53 su 125
+      FG SWIR precisa            mediana +0.496 px (verifica del programma +0.349), migliorate  23, peggiorate  55 su 147
+      FG UVF precisa             mediana -0.035 px (verifica del programma -0.045), migliorate  32, peggiorate  36 su 451
+      FG UVR precisa             mediana +0.020 px (verifica del programma +0.030), migliorate  19, peggiorate  28 su 407
+      FG NIR850 massima          mediana -0.000 px (verifica del programma +0.020), migliorate   6, peggiorate   9 su 455
+      FG UVF massima             mediana -0.008 px (verifica del programma +0.014), migliorate   2, peggiorate  14 su 450
+
+confidenza bassa (0.05): 9 coppie
+   mediana sulla griglia fitta: cambia fra -0.006 e +14.177 px (mediana delle coppie +0.023)
+   finestre migliorate di oltre 0.5 px: 130; peggiorate: 384; su 4183
+   tempo di stima: fra -40 e +7 s; memoria: fra -0.0 e +0.0 GB
+      CK NIR precisa             mediana -0.004 px (verifica del programma -0.022), migliorate  26, peggiorate  11 su 937
+      CK UV precisa              mediana +0.023 px (verifica del programma -0.110), migliorate  56, peggiorate  69 su 774
+      FG NIR850 precisa          mediana -0.006 px (verifica del programma -0.004), migliorate   3, peggiorate   3 su 452
+      FG RX_Cappello precisa     mediana +14.177 px (verifica del programma +13.420), migliorate   1, peggiorate 123 su 124
+      FG SWIR precisa            mediana +2.628 px (verifica del programma +2.247), migliorate  14, peggiorate 103 su 131
+      FG UVF precisa             mediana +0.013 px (verifica del programma +0.020), migliorate  12, peggiorate  22 su 452
+      FG UVR precisa             mediana +0.024 px (verifica del programma +0.017), migliorate  11, peggiorate  11 su 406
+      FG NIR850 massima          mediana +0.001 px (verifica del programma +0.002), migliorate   5, peggiorate   3 su 458
+      FG UVF massima             mediana +0.049 px (verifica del programma +0.030), migliorate   2, peggiorate  39 su 449
+
+confidenza alta (0.20): 9 coppie
+   mediana sulla griglia fitta: cambia fra -0.008 e +1.168 px (mediana delle coppie +0.008)
+   finestre migliorate di oltre 0.5 px: 172; peggiorate: 348; su 4169
+   tempo di stima: fra -25 e +9 s; memoria: fra -0.0 e +0.0 GB
+      CK NIR precisa             mediana -0.008 px (verifica del programma -0.001), migliorate  12, peggiorate   9 su 937
+      CK UV precisa              mediana +0.047 px (verifica del programma +0.218), migliorate  75, peggiorate 135 su 768
+      FG NIR850 precisa          mediana +0.000 px (verifica del programma -0.004), migliorate   3, peggiorate  11 su 451
+      FG RX_Cappello precisa     mediana +1.168 px (verifica del programma +1.178), migliorate  13, peggiorate  70 su 125
+      FG SWIR precisa            mediana +0.004 px (verifica del programma -0.015), migliorate  18, peggiorate  27 su 130
+      FG UVF precisa             mediana +0.027 px (verifica del programma +0.036), migliorate  29, peggiorate  49 su 449
+      FG UVR precisa             mediana +0.008 px (verifica del programma +0.021), migliorate  15, peggiorate  22 su 405
+      FG NIR850 massima          mediana -0.001 px (verifica del programma +0.002), migliorate   4, peggiorate   2 su 454
+      FG UVF massima             mediana +0.016 px (verifica del programma +0.040), migliorate   3, peggiorate  23 su 450

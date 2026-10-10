@@ -1,0 +1,19 @@
+coppia: VIS -> NIR850, anteprima fattore 2, 7924x9925 px
+grossolano: (-16,-2) px anteprima = (-32,-4) px piena, conf 0.495
+blocco mostrato: centro (3840,3584) anteprima, d=(1.364,-3.890), conf 0.717
+blocchi: 4369 misurati, 3893 conf>=0.10, 3767 inlier, 8 iterazioni
+  iter: 3893 blocchi, mediana 7.030 px, soglia 17.599 px (piena ris.)
+  iter: 3810 blocchi, mediana 6.836 px, soglia 17.004 px (piena ris.)
+  iter: 3785 blocchi, mediana 6.789 px, soglia 16.804 px (piena ris.)
+  iter: 3775 blocchi, mediana 6.768 px, soglia 16.727 px (piena ris.)
+  iter: 3772 blocchi, mediana 6.748 px, soglia 16.648 px (piena ris.)
+  iter: 3769 blocchi, mediana 6.740 px, soglia 16.631 px (piena ris.)
+  iter: 3768 blocchi, mediana 6.741 px, soglia 16.638 px (piena ris.)
+  iter: 3767 blocchi, mediana 6.742 px, soglia 16.641 px (piena ris.)
+M anteprima:
+[[ 1.00067256e+00  5.69524857e-04 -2.06707605e+01]
+ [ 5.82761200e-04  9.99790664e-01 -3.92898253e+00]]
+M piena:
+[[ 1.00067256e+00  5.69524857e-04 -4.13421420e+01]
+ [ 5.82761200e-04  9.99790664e-01 -7.85815177e+00]]
+angoli/centro spostati (px piena): [[-41.34, -7.86], [-30.68, 1.38], [-19.38, -2.78], [-30.04, -12.01], [-30.36, -5.32]]

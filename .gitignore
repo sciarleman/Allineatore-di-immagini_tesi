@@ -1,0 +1,65 @@
+# Le riprese del dipinto: 6.1 GB, e sono dati di ricerca, non codice.
+# GitHub rifiuta comunque i file oltre i 100 MB, e questi ne pesano 800-900
+# ciascuno. Il programma funziona sulle immagini di chiunque: non servono queste.
+immagini/
+*.tif
+*.tiff
+
+# Quello che il programma produce lanciandolo: si rigenera, e sono gigabyte.
+# I percorsi sono ancorati alla radice apposta, perche' benchmark/ contiene i
+# suoi risultati e quelli vanno tenuti: sono la documentazione delle misure
+# citate nel README.
+/risultati/
+/diagnostica/
+/allineati/
+/allineamenti/
+# align_paintings.py scrive le immagini di controllo in diagnostica/ accanto a
+# dove lo si lancia: lanciato dalla sua cartella, finiscono qui.
+/Allineatore/diagnostica/
+# Il benchmark tiene su git script, giudici, risultati e tabelle (json, jsonl,
+# txt); le immagini di lavoro si rigenerano e mostrano le opere.
+/Allineatore/benchmark/lavoro/
+# I risultati delle misure rifatte: le versioni di prima sono nella storia di git.
+/Allineatore/benchmark/risultati_precedenti/
+# Niente regole per "falsocolore": su Windows git non distingue le maiuscole, e
+# una regola del genere nasconderebbe la cartella del programma FalsoColore/.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Strumenti e sistema
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Registri a schermo delle prove: si rigenerano. I risultati (jsonl) e le
+# tabelle restano.
+/Allineatore/benchmark/*_registro*.txt
+/Documentazione/impostazioni/script/*_registro*.txt
+/Documentazione/impostazioni/script/log/
+/Documentazione/impostazioni/script/trasformazioni/
+/Documentazione/impostazioni/script/tmp_*/
+# Dati intermedi delle figure: calcola.py li rifa' in un minuto (cache.npz pesa
+# 98 MB, oltre il limite di GitHub).
+/Documentazione/schemi/*.npz
+# Le figure che mostrano le opere restano fuori: si rifanno con gli script
+# accanto, avendo le riprese. Su git vanno solo script, schemi a blocchi e grafici.
+/Documentazione/schemi/[1-5]_*.png
+/Documentazione/schemi/anteprima_vis.png
+/Documentazione/schemi/ritaglio_vis_2048px.png
+/Documentazione/schemi/fig3_*.png
+/Documentazione/schemi/fig4_*.png
+/Documentazione/schemi/schema_correlazione_di_fase.png
+/Documentazione/schemi/schema_tre_scale_*.png
+/Documentazione/schemi/schema_verifica_sintetico*.png
+# Il testo della tesi e le sue bozze.
+/Documentazione/tesi/
+# Appunti di lavoro e progetto precedente: restano sul disco, non nel repository.
+/Documentazione/sessioni/
+/Allineatore/_archivio/

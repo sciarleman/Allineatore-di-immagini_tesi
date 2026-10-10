@@ -1,0 +1,150 @@
+
+CK NIR  fattore 1  portata grossolano 64 px (riduzione 2)   [anteprime 23 s, traslazione oggi [-100, -265] corretta [90, -275]]
+  oggi: traslazione, poi ripiego se serve       0.049 px [0.04-0.07]  64/64  >1   0% >5   0% max    0.5                 5.9 min  primo tentativo fallito (-) -> ripiego
+  traslazione corretta, poi ripiego se serve    0.042 px [0.04-0.06]  64/64  >1   0% >5   0% max    0.5                 2.9 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.049 px [0.04-0.07]  64/64  >1   0% >5   0% max    0.5                 3.0 min  
+      rispetto a oggi su 64 finestre comuni: mediana 0.049 -> 0.042 px, peggiorate >0.2 px: 0, migliorate: 1
+      (posa) grossolano applicato True, ampiezza max 81.19921112060547; bordo: 0-500: 1/16 med 6.44 | 500-1000: 49/58 med 0.14 | 1000-2000: 59/59 med 0.09 | 2000-None: 59/60 med 0.07
+
+CK NIR  fattore 1  portata grossolano 128 px (riduzione 4)   [anteprime 23 s, traslazione oggi [-100, -265] corretta [90, -275]]
+  oggi: traslazione, poi ripiego se serve       0.043 px [0.03-0.05]  64/64  >1   0% >5   0% max    0.6                 5.8 min  primo tentativo fallito (-) -> ripiego
+  traslazione corretta, poi ripiego se serve    0.043 px [0.04-0.05]  64/64  >1   0% >5   0% max    0.7                 2.8 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.043 px [0.03-0.05]  64/64  >1   0% >5   0% max    0.6                 3.0 min  
+      rispetto a oggi su 64 finestre comuni: mediana 0.043 -> 0.043 px, peggiorate >0.2 px: 1, migliorate: 0
+      (posa) grossolano applicato True, ampiezza max 143.5205078125; bordo: 0-500: 0/16 med - | 500-1000: 50/58 med 0.07 | 1000-2000: 59/59 med 0.08 | 2000-None: 59/60 med 0.06
+
+CK NIR  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 22 s, traslazione oggi [-49, -135] corretta [46, -139]]
+  oggi: traslazione, poi ripiego se serve       0.243 px [0.18-0.35]  64/64  >1   8% >5   0% max    3.1                 2.2 min  primo tentativo fallito (28 px) -> ripiego
+  traslazione corretta, poi ripiego se serve    0.254 px [0.20-0.33]  64/64  >1  16% >5   2% max    5.7                 0.8 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.243 px [0.18-0.35]  64/64  >1   8% >5   0% max    3.1                 1.3 min  
+      rispetto a oggi su 64 finestre comuni: mediana 0.243 -> 0.254 px, peggiorate >0.2 px: 6, migliorate: 1
+      (posa) grossolano applicato True, ampiezza max 141.49928283691406; bordo: 0-500: 0/16 med - | 500-1000: 51/58 med 0.37 | 1000-2000: 59/59 med 0.29 | 2000-None: 59/60 med 0.36
+
+CK UV  fattore 1  portata grossolano 64 px (riduzione 2)   [anteprime 23 s, traslazione oggi [-87, 108] corretta [-163, -60]]
+  oggi: traslazione, poi ripiego se serve       0.289 px [0.21-0.39]  51/64  >1  20% >5  16% max  101.5                 5.9 min  primo tentativo fallito (-) -> ripiego
+  traslazione corretta, poi ripiego se serve    0.232 px [0.19-0.37]  43/64  >1  16% >5  14% max  107.2                 2.9 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.289 px [0.21-0.39]  51/64  >1  20% >5  16% max  101.5                 3.0 min  
+      rispetto a oggi su 41 finestre comuni: mediana 0.228 -> 0.228 px, peggiorate >0.2 px: 9, migliorate: 5
+      (posa) grossolano applicato True, ampiezza max 88.55014038085938; bordo: 0-500: 1/21 med 1.65 | 500-1000: 7/57 med 30.53 | 1000-2000: 8/59 med 0.69 | 2000-None: 13/60 med 0.22
+
+CK UV  fattore 1  portata grossolano 128 px (riduzione 4)   [anteprime 23 s, traslazione oggi [-87, 108] corretta [-163, -60]]
+  oggi: traslazione, poi ripiego se serve       0.248 px [0.20-0.35]  53/64  >1   6% >5   0% max    1.8                 5.7 min  primo tentativo fallito (-) -> ripiego
+  traslazione corretta, poi ripiego se serve    0.327 px [0.23-0.40]  52/64  >1  15% >5  10% max  102.9                 2.7 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.248 px [0.20-0.35]  53/64  >1   6% >5   0% max    1.8                 3.0 min  
+      rispetto a oggi su 50 finestre comuni: mediana 0.241 -> 0.314 px, peggiorate >0.2 px: 9, migliorate: 4
+      (posa) grossolano applicato True, ampiezza max 160.91558837890625; bordo: 0-500: 0/20 med - | 500-1000: 14/58 med 0.42 | 1000-2000: 16/59 med 0.5 | 2000-None: 14/60 med 0.15
+
+CK UV  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 25 s, traslazione oggi [-44, 52] corretta [-7, 22]]
+  oggi: traslazione, poi ripiego se serve       1.094 px [0.94-1.29]  55/64  >1  60% >5   5% max   19.0                 1.0 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    1.005 px [0.88-1.16]  54/64  >1  52% >5   2% max   24.7                 0.9 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.924 px [0.79-1.18]  56/64  >1  48% >5   5% max   19.9                 1.3 min  
+      rispetto a oggi su 51 finestre comuni: mediana 1.051 -> 1.007 px, peggiorate >0.2 px: 11, migliorate: 14
+      rispetto a oggi su 51 finestre comuni: mediana 1.091 -> 0.908 px, peggiorate >0.2 px: 11, migliorate: 16
+      (posa) grossolano applicato True, ampiezza max 171.59642028808594; bordo: 0-500: 0/20 med - | 500-1000: 15/58 med 1.04 | 1000-2000: 19/59 med 0.78 | 2000-None: 14/60 med 0.84
+
+FG NIR850  fattore 1  portata grossolano 64 px (riduzione 2)   [anteprime 17 s, traslazione oggi [-30, -5] corretta [-29, -5]]
+  oggi: traslazione, poi ripiego se serve       0.054 px [0.04-0.07]  61/64  >1   2% >5   0% max    1.4                 1.8 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.052 px [0.05-0.07]  61/64  >1   2% >5   0% max    1.4                 1.6 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.054 px [0.05-0.07]  61/64  >1   2% >5   0% max    1.0                 1.6 min  
+      rispetto a oggi su 61 finestre comuni: mediana 0.054 -> 0.052 px, peggiorate >0.2 px: 1, migliorate: 0
+      rispetto a oggi su 61 finestre comuni: mediana 0.054 -> 0.054 px, peggiorate >0.2 px: 0, migliorate: 3
+      (posa) grossolano applicato False, ampiezza max 26.173847198486328; bordo: 0-500: 28/54 med 0.1 | 500-1000: 28/50 med 0.1 | 1000-2000: 40/56 med 0.08 | 2000-None: 47/60 med 0.08
+
+FG NIR850  fattore 1  portata grossolano 128 px (riduzione 4)   [anteprime 17 s, traslazione oggi [-30, -5] corretta [-29, -5]]
+  oggi: traslazione, poi ripiego se serve       0.054 px [0.04-0.07]  61/64  >1   2% >5   0% max    1.4                 1.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.052 px [0.05-0.07]  61/64  >1   2% >5   0% max    1.4                 1.4 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.054 px [0.05-0.07]  61/64  >1   2% >5   0% max    1.0                 1.4 min  
+      rispetto a oggi su 61 finestre comuni: mediana 0.054 -> 0.052 px, peggiorate >0.2 px: 1, migliorate: 0
+      rispetto a oggi su 61 finestre comuni: mediana 0.054 -> 0.054 px, peggiorate >0.2 px: 0, migliorate: 3
+      (posa) grossolano applicato False, ampiezza max 28.60610580444336; bordo: 0-500: 28/54 med 0.1 | 500-1000: 28/50 med 0.1 | 1000-2000: 40/56 med 0.08 | 2000-None: 47/60 med 0.08
+
+FG NIR850  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 3 s, traslazione oggi [-16, -2] corretta [-16, -1]]
+  oggi: traslazione, poi ripiego se serve       0.214 px [0.18-0.26]  61/64  >1   5% >5   0% max    2.4                 0.5 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.212 px [0.18-0.25]  61/64  >1   8% >5   0% max    3.4                 0.5 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.224 px [0.17-0.26]  61/64  >1   8% >5   0% max    3.4                 0.5 min  
+      rispetto a oggi su 61 finestre comuni: mediana 0.214 -> 0.212 px, peggiorate >0.2 px: 3, migliorate: 0
+      rispetto a oggi su 61 finestre comuni: mediana 0.214 -> 0.224 px, peggiorate >0.2 px: 4, migliorate: 2
+      (posa) grossolano applicato False, ampiezza max 26.41269874572754; bordo: 0-500: 29/54 med 0.27 | 500-1000: 28/50 med 0.25 | 1000-2000: 40/56 med 0.21 | 2000-None: 47/60 med 0.2
+
+FG NIR950  fattore 1  portata grossolano 64 px (riduzione 2)   [anteprime 8 s, traslazione oggi [-37, -2] corretta [-38, -1]]
+  oggi: traslazione, poi ripiego se serve       0.068 px [0.06-0.08]  60/64  >1   0% >5   0% max    0.9                 1.6 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.069 px [0.06-0.08]  59/64  >1   0% >5   0% max    0.9                 1.5 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.075 px [0.06-0.10]  60/64  >1   0% >5   0% max    0.9                 1.5 min  
+      rispetto a oggi su 59 finestre comuni: mediana 0.067 -> 0.069 px, peggiorate >0.2 px: 0, migliorate: 1
+      rispetto a oggi su 59 finestre comuni: mediana 0.067 -> 0.073 px, peggiorate >0.2 px: 3, migliorate: 1
+      (posa) grossolano applicato False, ampiezza max 25.491968154907227; bordo: 0-500: 28/54 med 0.13 | 500-1000: 27/50 med 0.11 | 1000-2000: 41/56 med 0.1 | 2000-None: 46/60 med 0.1
+
+FG NIR950  fattore 1  portata grossolano 128 px (riduzione 4)   [anteprime 8 s, traslazione oggi [-37, -2] corretta [-38, -1]]
+  oggi: traslazione, poi ripiego se serve       0.068 px [0.06-0.08]  60/64  >1   0% >5   0% max    0.9                 1.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.076 px [0.07-0.09]  61/64  >1   3% >5   0% max    2.2                 1.5 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.075 px [0.06-0.10]  60/64  >1   0% >5   0% max    0.9                 1.4 min  
+      rispetto a oggi su 60 finestre comuni: mediana 0.068 -> 0.075 px, peggiorate >0.2 px: 1, migliorate: 4
+      rispetto a oggi su 59 finestre comuni: mediana 0.067 -> 0.073 px, peggiorate >0.2 px: 3, migliorate: 1
+      (posa) grossolano applicato False, ampiezza max 24.706377029418945; bordo: 0-500: 28/54 med 0.13 | 500-1000: 27/50 med 0.11 | 1000-2000: 41/56 med 0.1 | 2000-None: 46/60 med 0.1
+
+FG NIR950  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 2 s, traslazione oggi [-20, 1] corretta [-20, 1]]
+  oggi: traslazione, poi ripiego se serve       0.199 px [0.18-0.26]  59/64  >1   7% >5   0% max    1.4                 0.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.199 px [0.18-0.26]  59/64  >1   7% >5   0% max    1.4                 0.4 min  primo tentativo riuscito, niente ripiego  [identico a oggi: stesse dimensioni]
+  posa grossolana subito                        0.192 px [0.17-0.25]  60/64  >1   7% >5   2% max   15.2                 0.5 min  
+      rispetto a oggi su 59 finestre comuni: mediana 0.199 -> 0.188 px, peggiorate >0.2 px: 1, migliorate: 2
+      (posa) grossolano applicato False, ampiezza max 34.66202163696289; bordo: 0-500: 28/54 med 0.32 | 500-1000: 27/50 med 0.29 | 1000-2000: 41/56 med 0.23 | 2000-None: 46/60 med 0.25
+
+FG RX_Cappello  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 8 s, traslazione oggi [0, 0] corretta [1179, -768]]
+  oggi: traslazione, poi ripiego se serve       1.069 px [0.83-1.20]  81/225 >1  51% >5   4% max   23.7                 0.5 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    1.062 px [0.79-1.32]  52/224 >1  52% >5   6% max  189.3                 0.9 min  primo tentativo fallito (-) -> ripiego
+  posa grossolana subito                        1.062 px [0.79-1.32]  52/224 >1  52% >5   6% max  189.3                 0.5 min  
+      rispetto a oggi su 9 finestre comuni: mediana 0.830 -> 0.765 px, peggiorate >0.2 px: 4, migliorate: 2
+      rispetto a oggi su 9 finestre comuni: mediana 0.830 -> 0.765 px, peggiorate >0.2 px: 4, migliorate: 2
+      (posa) grossolano applicato False, ampiezza max 59.992401123046875; bordo: 0-500: 1/32 med 0.99 | 500-1000: 0/31 med - | 1000-2000: 0/45 med - | 2000-None: 2/59 med 0.49
+
+FG RX_Testa  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 8 s, traslazione oggi [0, 0] corretta [0, 0]]
+  oggi: traslazione, poi ripiego se serve       1.091 px [0.84-1.25]  80/224 >1  54% >5   8% max   29.9                 0.5 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    1.091 px [0.84-1.25]  80/224 >1  54% >5   8% max   29.9                 0.5 min  primo tentativo riuscito, niente ripiego  [identico a oggi: stesse dimensioni]
+  posa grossolana subito                        1.129 px [0.91-1.47]  58/224 >1  57% >5  12% max   96.9                 0.5 min  
+      rispetto a oggi su 10 finestre comuni: mediana 0.751 -> 0.714 px, peggiorate >0.2 px: 3, migliorate: 5
+      (posa) grossolano applicato False, ampiezza max 62.274261474609375; bordo: 0-500: 0/32 med - | 500-1000: 0/31 med - | 1000-2000: 0/45 med - | 2000-None: 2/59 med 2.3
+
+FG UVF  fattore 1  portata grossolano 64 px (riduzione 2)   [anteprime 9 s, traslazione oggi [-31, -2] corretta [-31, -2]]
+  oggi: traslazione, poi ripiego se serve       0.171 px [0.15-0.26]  61/64  >1   0% >5   0% max    0.9                 1.5 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.171 px [0.15-0.26]  61/64  >1   0% >5   0% max    0.9                 1.5 min  primo tentativo riuscito, niente ripiego  [identico a oggi: stesse dimensioni]
+  posa grossolana subito                        0.201 px [0.14-0.25]  62/64  >1   3% >5   2% max   19.0                 1.6 min  
+      rispetto a oggi su 61 finestre comuni: mediana 0.171 -> 0.197 px, peggiorate >0.2 px: 1, migliorate: 2
+      (posa) grossolano applicato True, ampiezza max 32.503822326660156; bordo: 0-500: 8/54 med 0.17 | 500-1000: 7/50 med 0.27 | 1000-2000: 15/56 med 0.2 | 2000-None: 30/60 med 0.18
+
+FG UVF  fattore 1  portata grossolano 128 px (riduzione 4)   [anteprime 9 s, traslazione oggi [-31, -2] corretta [-31, -2]]
+  oggi: traslazione, poi ripiego se serve       0.160 px [0.12-0.19]  61/64  >1   0% >5   0% max    0.8                 1.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.160 px [0.12-0.19]  61/64  >1   0% >5   0% max    0.8                 1.4 min  primo tentativo riuscito, niente ripiego  [identico a oggi: stesse dimensioni]
+  posa grossolana subito                        0.139 px [0.11-0.17]  61/64  >1   0% >5   0% max    0.9                 1.4 min  
+      rispetto a oggi su 61 finestre comuni: mediana 0.160 -> 0.139 px, peggiorate >0.2 px: 3, migliorate: 3
+      (posa) grossolano applicato True, ampiezza max 32.24915313720703; bordo: 0-500: 9/54 med 0.12 | 500-1000: 7/50 med 0.22 | 1000-2000: 16/56 med 0.17 | 2000-None: 30/60 med 0.16
+
+FG UVF  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 2 s, traslazione oggi [-16, 0] corretta [-16, 0]]
+  oggi: traslazione, poi ripiego se serve       0.574 px [0.50-0.62]  61/64  >1  21% >5   0% max    4.3                 0.5 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.574 px [0.50-0.62]  61/64  >1  21% >5   0% max    4.3                 0.5 min  primo tentativo riuscito, niente ripiego  [identico a oggi: stesse dimensioni]
+  posa grossolana subito                        0.593 px [0.46-0.65]  61/64  >1  23% >5   0% max    4.4                 0.5 min  
+      rispetto a oggi su 61 finestre comuni: mediana 0.574 -> 0.593 px, peggiorate >0.2 px: 4, migliorate: 4
+      (posa) grossolano applicato False, ampiezza max 26.152793884277344; bordo: 0-500: 9/54 med 0.55 | 500-1000: 8/50 med 0.37 | 1000-2000: 17/56 med 0.6 | 2000-None: 30/60 med 0.47
+
+FG UVR  fattore 1  portata grossolano 64 px (riduzione 2)   [anteprime 9 s, traslazione oggi [-26, -26] corretta [-27, -27]]
+  oggi: traslazione, poi ripiego se serve       0.086 px [0.07-0.13]  53/64  >1  13% >5   0% max    4.8                 1.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.080 px [0.06-0.10]  52/64  >1  10% >5   0% max    1.7                 1.4 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.100 px [0.07-0.15]  54/64  >1  11% >5   2% max    8.2                 1.5 min  
+      rispetto a oggi su 52 finestre comuni: mediana 0.086 -> 0.080 px, peggiorate >0.2 px: 0, migliorate: 1
+      rispetto a oggi su 53 finestre comuni: mediana 0.086 -> 0.098 px, peggiorate >0.2 px: 4, migliorate: 5
+      (posa) grossolano applicato False, ampiezza max 26.50448989868164; bordo: 0-500: 28/54 med 0.21 | 500-1000: 24/50 med 0.15 | 1000-2000: 37/56 med 0.15 | 2000-None: 35/60 med 0.12
+
+FG UVR  fattore 1  portata grossolano 128 px (riduzione 4)   [anteprime 9 s, traslazione oggi [-26, -26] corretta [-27, -27]]
+  oggi: traslazione, poi ripiego se serve       0.092 px [0.08-0.10]  55/64  >1   4% >5   2% max   12.2                 1.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.088 px [0.08-0.10]  56/64  >1   5% >5   2% max   12.0                 1.4 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.100 px [0.07-0.15]  54/64  >1  11% >5   2% max    8.2                 1.3 min  
+      rispetto a oggi su 55 finestre comuni: mediana 0.092 -> 0.088 px, peggiorate >0.2 px: 2, migliorate: 2
+      rispetto a oggi su 54 finestre comuni: mediana 0.090 -> 0.100 px, peggiorate >0.2 px: 11, migliorate: 2
+      (posa) grossolano applicato False, ampiezza max 29.012170791625977; bordo: 0-500: 28/54 med 0.21 | 500-1000: 24/50 med 0.15 | 1000-2000: 37/56 med 0.15 | 2000-None: 35/60 med 0.12
+
+FG UVR  fattore 2  portata grossolano 128 px (riduzione 2)   [anteprime 2 s, traslazione oggi [-14, -10] corretta [-15, -10]]
+  oggi: traslazione, poi ripiego se serve       0.323 px [0.30-0.39]  52/64  >1   8% >5   0% max    1.8                 0.4 min  primo tentativo riuscito, niente ripiego
+  traslazione corretta, poi ripiego se serve    0.334 px [0.30-0.39]  52/64  >1  10% >5   0% max    1.8                 0.4 min  primo tentativo riuscito, niente ripiego
+  posa grossolana subito                        0.354 px [0.30-0.45]  54/64  >1  11% >5   0% max    2.8                 0.4 min  
+      rispetto a oggi su 52 finestre comuni: mediana 0.323 -> 0.334 px, peggiorate >0.2 px: 2, migliorate: 0
+      rispetto a oggi su 52 finestre comuni: mediana 0.323 -> 0.351 px, peggiorate >0.2 px: 4, migliorate: 1
+      (posa) grossolano applicato False, ampiezza max 33.57296371459961; bordo: 0-500: 25/54 med 0.46 | 500-1000: 23/50 med 0.39 | 1000-2000: 36/56 med 0.38 | 2000-None: 35/60 med 0.36

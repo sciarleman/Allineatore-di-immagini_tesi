@@ -1,0 +1,12 @@
+# Le librerie che servono ai tre programmi (allineamento, falso colore, mosaico).
+# Le finestre usano tkinter, che arriva con Python.
+#
+#     pip install -r requirements.txt
+#
+# Le misure della tesi sono state fatte con Python 3.13, numpy 2.4, OpenCV 4.13,
+# SciPy 1.18 e Pillow 12.3. Con versioni precedenti il programma non e' stato
+# provato.
+numpy
+opencv-python
+scipy
+Pillow

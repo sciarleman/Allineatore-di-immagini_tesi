@@ -1,0 +1,17 @@
+
+===== UV =====
+anteprime e posa grossolana in 64 s (fattori 1, 1)
+riduzione 4: stima in 3.0 min | grossolano: applicato True, blocchi concordi 4757/5380, portata 128.0, guadagno 93.3444154497115, ampiezza max 160.91558837890625, sigma 256.0 | pass1 inlier 10933/28690 | fine: blocchi 58650, cv 1.798700667311734 -> 0.6547037055145223
+riduzione 8: stima in 2.9 min | grossolano: applicato True, blocchi concordi 1645/1789, portata 256.0, guadagno 90.84670112937226, ampiezza max 243.24578857421875, sigma 512.0 | pass1 inlier 10933/28690 | fine: blocchi 66520, cv 2.921442610171354 -> 0.688374012364898
+  oggi (riduzione 2)   mediana 0.289 px IC [0.207, 0.389]  finestre 51/64  >1px 20% >5px 16% >10px 16%  p95 74.19  max 101.54
+  riduzione 4          mediana 0.248 px IC [0.195, 0.351]  finestre 53/64  >1px 6% >5px 0% >10px 0%  p95 0.97  max 1.78
+  riduzione 8          mediana 0.276 px IC [0.22, 0.343]  finestre 60/64  >1px 12% >5px 0% >10px 0%  p95 1.13  max 1.99
+  riduzione 4 contro oggi, sulle 50 finestre misurabili in entrambe: mediana 0.276 -> 0.241 px; peggiorate di oltre 0.2 px: 6, migliorate: 12; fra quelle gia' sotto 1 px (40): mediana 0.210 -> 0.219, max 1.02
+    le finestre oggi oltre 5 px: (22409,2451) 50->0.2  (25563,2451) 73->0.5  (25563,13540) 23->0.1  (3485,15758) 27->0.2  (22409,15758) 61->0.2  (3485,17976) 102->0.5  (12947,17976) 76->0.3  (16101,17976) 76->0.3
+    bordo: 0-500: n 0/20 med - >5px - | 500-1000: n 14/58 med 0.42 >5px 0.14 | 1000-2000: n 16/59 med 0.5 >5px 0.25 | 2000-None: n 14/60 med 0.15 >5px 0.0
+  riduzione 8 contro oggi, sulle 51 finestre misurabili in entrambe: mediana 0.289 -> 0.248 px; peggiorate di oltre 0.2 px: 7, migliorate: 12; fra quelle gia' sotto 1 px (41): mediana 0.213 -> 0.252, max 1.07
+    le finestre oggi oltre 5 px: (22409,2451) 50->0.1  (25563,2451) 73->0.2  (25563,13540) 23->0.2  (3485,15758) 27->1.0  (22409,15758) 61->0.2  (3485,17976) 102->0.1  (12947,17976) 76->0.5  (16101,17976) 76->0.2
+    bordo: 0-500: n 1/22 med 0.91 >5px 0.0 | 500-1000: n 21/58 med 0.44 >5px 0.05 | 1000-2000: n 20/59 med 0.25 >5px 0.0 | 2000-None: n 16/60 med 0.17 >5px 0.0
+
+fatto
+exit 0

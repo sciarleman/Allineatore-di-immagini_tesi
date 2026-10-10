@@ -1,0 +1,11 @@
+# I file di testo si normalizzano a LF nel repository e tornano nel formato
+# della macchina al checkout: senza, ogni file toccato su Windows risulterebbe
+# modificato per intero solo per i fine riga.
+* text=auto
+
+# I risultati del benchmark sono binari: non vanno toccati ne' confrontati riga
+# per riga.
+*.png binary
+*.npy binary
+*.tif binary
+*.bak binary
