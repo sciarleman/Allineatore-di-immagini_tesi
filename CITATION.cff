@@ -1,0 +1,27 @@
+# Come citare questo programma. GitHub lo legge e mostra «Cite this repository».
+# Il DOI qui sotto e' quello che punta sempre all'ultima versione archiviata su Zenodo;
+# la versione aligner-multisp-v7.0 ha il DOI 10.5281/zenodo.23311663.
+cff-version: 1.2.0
+message: "Se usi questo programma, citalo con i dati qui sotto."
+type: software
+title: "Allineatore di immagini multispettrali di dipinti"
+abstract: >-
+  Allineamento di immagini multispettrali di dipinti (visibile, infrarosso,
+  ultravioletto, radiografia) con una trasformazione affine e campi di
+  deformazione stimati in tre scale, con una misura dell'errore su ogni
+  risultato. Comprende la composizione in falso colore e gli script delle
+  misure.
+authors:
+  - family-names: Sala
+    given-names: Carlo
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: aligner-multisp-v7.0
+date-released: "2026-10-10"
+license: MIT
+repository-code: "https://github.com/sciarleman/Allineatore-di-immagini_tesi"
+doi: 10.5281/zenodo.23311662
+keywords:
+  - registrazione di immagini
+  - imaging multispettrale
+  - beni culturali
+  - dipinti

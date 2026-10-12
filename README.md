@@ -1,5 +1,11 @@
 # Allineamento di immagini enormi — guida
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23311662.svg)](https://doi.org/10.5281/zenodo.23311662)
+
+Il programma è archiviato su Zenodo. Per citarlo: il DOI qui sopra punta sempre all'ultima versione;
+la versione `aligner-multisp-v7.0`, usata per le misure della tesi, ha il DOI
+[10.5281/zenodo.23311663](https://doi.org/10.5281/zenodo.23311663). I dati per la citazione sono in `CITATION.cff`.
+
 ## Installazione
 
 Serve Python (provato con la versione 3.13) con le librerie elencate in
